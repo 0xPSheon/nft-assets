@@ -11,6 +11,7 @@
 *.pem
 
 # NFT maker
+.nftartmakerrc
 /layers/*
 /output/*
 
