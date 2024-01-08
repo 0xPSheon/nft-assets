@@ -1,0 +1,14 @@
+{
+  "name": "nft-assets",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "PSheon",
+  "license": "MIT",
+  "script": {
+    "preview": "npx nft-art-maker preview"
+  },
+  "dependencies": {
+    "nft-art-maker": "^6.0.1"
+  }
+}
