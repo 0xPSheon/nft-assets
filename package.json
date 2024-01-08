@@ -5,8 +5,12 @@
   "keywords": [],
   "author": "PSheon",
   "license": "MIT",
-  "script": {
-    "preview": "npx nft-art-maker preview"
+  "scripts": {
+    "generate": "npx nft-art-maker generate",
+    "check-unique": "npx nft-art-maker check",
+    "preview": "npx nft-art-maker preview",
+    "pack": "npx nft-art-maker pack",
+    "upload": "npx nft-art-maker upload"
   },
   "dependencies": {
     "nft-art-maker": "^6.0.1"
