@@ -1,0 +1,43 @@
+{
+  "description": "Cool NFT",
+  "layerConfigurations": [
+    {
+      "growEditionSizeTo": 20,
+      "layersOrder": [
+        {
+          "name": "Background"
+        },
+        {
+          "name": "Skin"
+        },
+        {
+          "name": "Streak"
+        },
+        {
+          "name": "Eyes"
+        },
+        {
+          "name": "Mouth"
+        },
+        {
+          "name": "Decorate"
+        }
+      ]
+    }
+  ],
+  "shuffleLayerConfigurations": true,
+  "format": {
+    "width": 600,
+    "height": 600
+  },
+  "rarityDelimiter": "#",
+  "uniqueDnaTorrance": 10000,
+  "preview": {
+    "thumbPerRow": 5,
+    "thumbWidth": 300,
+    "imageRatio": 1,
+    "imageName": "preview.png"
+  },
+  "nftStorageApiToken": "Your nft.storage API token",
+  "overwriteImageCID": "Your image CID after upload to your IPFS storage."
+}
